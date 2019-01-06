@@ -1,0 +1,26 @@
+/* via https://blog.codepen.io/2017/07/25/multi-pane-editable-embeds/ */
+
+#output {
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#html-box, #css-box {
+  border-bottom: 5px solid white;
+}
+
+#html-box, #css-box, #js-box, #result-box {
+  display: block !important;
+  height: 33% !important;
+  width: 50% !important;
+}
+
+#embed-nav {
+  display: none;
+}
+
+#result-box {
+  border-left: 10px solid white;
+  height: 100% !important;
+}
